@@ -3,11 +3,11 @@ empArray = Array.new
 end
 
 def create_an_array
- array = ["mom","dad", "wali", "osman" ]
+ arrayfam = ["mom","dad", "wali", "osman" ]
 end
 
 def add_element_to_end_of_array(array, element)
-       array << "kenny"
+       array << element
    
 end
 
