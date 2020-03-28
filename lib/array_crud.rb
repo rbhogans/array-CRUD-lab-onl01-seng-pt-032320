@@ -7,9 +7,9 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-   add_element_to_end_of_array = ["mom","dad", "wali", "osman"]
-   add_element_to_end_of_array << "kenny"
-   puts add_element_to_end_of_array.inspect
+    add_element_to_end_of_array = ["mom","dad", "wali", "osman"]
+    add_element_to_end_of_array << "kenny"
+    puts add_element_to_end_of_array.inspect
    
 end
 
