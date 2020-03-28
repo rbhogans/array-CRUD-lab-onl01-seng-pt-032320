@@ -16,7 +16,7 @@ end
 def add_element_to_start_of_array(array, element)
    add_element_to_start_of_array(array, element)
    add_element_to_start_of_array = ["mom","dad", "wali", "osman"]
-   add_element_to_start_of_array << "kenny"
+   add_element_to_start_of_array unshift "kenny"
    puts add_element_to_start_of_array.inspect
    
 end
