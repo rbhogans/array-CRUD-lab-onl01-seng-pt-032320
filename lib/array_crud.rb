@@ -14,7 +14,11 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  
+   add_element_to_start_of_array(array, element)
+   add_element_to_start_of_array = ["mom","dad", "wali", "osman"]
+   add_element_to_start_of_array << "kenny"
+   puts add_element_to_start_of_array.inspect
+   
 end
 
 def remove_element_from_end_of_array(array)
